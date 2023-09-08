@@ -1,0 +1,114 @@
+*{
+	font-family: "黑体";
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+body{
+	background-color: #55d;
+}
+.background-1{
+	width:800px;
+	height: 2400px;
+	padding-top: 100px;
+}
+.xing_feng{
+	position: relative;
+	background-color: #55f;
+	width: 90%;
+	height: 95%;
+	margin:auto;
+	box-shadow: 12px 12px 10px 10px rgba(0,0,0,0.2),
+				14px 14px 12px 12px rgba(0,0,0,0.1);
+}
+
+.feng{
+	position: absolute;
+	filter: drop-shadow(1px 1px 5px rgba(0,0,0,1));
+}
+.ko{
+	width: 720px;
+	height: 300px;
+	background-color: #44f;
+	clip-path: polygon(50% 100%,0 0, 100% 0);
+}
+
+.gai_zhang{
+	height: 10%;
+	width: 10%;
+	border: 5px solid #ff0;
+	margin: auto;
+	background-color: #ff0;
+	box-shadow: -3px -3px 3px 3px rgba(255,255,250,0.5),
+				3px 3px 3px 3px rgba(0,0,0,0.5),
+				inset -23px 3px 3px rgba(255,255,250,0.5),
+				inset 3px 3px 3px 3px rgba(0,0,0,0.5);
+ 	position: relative;
+	top: 150px;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 100px;
+	padding:20px 25px 30px 25px;
+	color: #ff0;
+	text-shadow: -3px -3px 3px #fff,
+				3px 3px 3px rgba(0,0,0,0.5);
+}
+.xing_jian{
+	display: none;
+	background-color: #ffd;
+	width: 85%;
+	margin: auto;
+	height: 90%;
+	font-size: 50px;
+	padding: 44px;
+	box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.3);
+}
+.feng_mian{
+	width: 90%;
+	margin:200px auto;
+}
+.feng_mian h1{
+	line-height: 170px;
+	font-size: 100px;
+	text-align: center;
+	color: #fff;
+}
+.feng_mian h2{
+	line-height: 50px;
+	font-size: 60px;
+	text-align: center;
+	color: #fff;
+}
+.feng_mian p{
+	line-height: 100px;
+}
+.name{
+	margin-top: 100px;
+	text-align: center;
+	font-size: 70px;
+	color: #fff;
+}
+.time{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+}
+.position{
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+}
+.phone{
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+}
+.logo{
+	position: absolute;
+	width: 20%;
+	top: 260%;
+	left: 40%;
+}
